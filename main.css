@@ -1,0 +1,44 @@
+section {
+	background: url('fazey_crowd.jpg') center center;
+	background-size: cover;
+	height: 100vh;
+}
+
+header {
+	text-align: center;
+	margin: 0 auto;
+}
+
+header p {
+	color: white;
+}
+
+header button {
+	background-color: #ffbf3e;
+	color: white;
+	border: solid 1px #ffbf3e;
+}
+
+.itemUl {
+	margin: 0 auto;
+	max-width: 960px;
+	list-style: none;
+	/* No idea why this is continuously an issue */
+	padding-left: 0;
+	margin-top: 90px;
+}
+
+li {
+	/* The float is made in order to have six boxes side by side */
+	float: left;
+	width: 160px;
+	height: 160px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 0 0 0;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+}
